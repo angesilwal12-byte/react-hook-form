@@ -10,3 +10,33 @@
   align-items: center;
   justify-content: center;
 }
+.single-form{
+  
+  display:flex;
+  flex-direction: column;
+}
+.company{
+  display:flex;
+  flex-direction: column;
+}
+.location{
+  display:flex;
+  flex-direction: column;
+}
+.website{
+  display:flex;
+  flex-direction: column;
+}
+.join{
+  display:flex;
+  flex-direction: column;
+
+}
+.end{
+  display:flex;
+  flex-direction: column;
+}
+.description{
+  display:flex;
+  flex-direction: column;
+}

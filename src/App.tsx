@@ -6,31 +6,31 @@ function App() {
   return (
     <div className='main-container'>
       <form>
-        <div>
+        <div className='single-form'>
           <label htmlFor="jobTitle">Job Title</label>
           <input type="text" />
         </div>
-        <div>
+        <div className='company'>
           <label htmlFor="company">Company</label>
           <input type="text" />
         </div>
-        <div>
+        <div className='location'>
           <label htmlFor="location">Location</label>
           <input type="location" />
         </div>
-        <div>
+        <div className='website'>
           <label htmlFor="companywebsite">Company Website</label>
           <input type="text" />
         </div>
-        <div>
+        <div className='join'>
           <label htmlFor="date">Join Date</label>
           <input type="date" />
         </div>
-        <div>
+        <div className='end'>
           <label htmlFor="date">End Date</label>
           <input type="date" />
         </div>
-        <div>
+        <div className='description'>
           <label htmlFor="description">Description</label>
           <textarea name="descriptiom" id="description" rows={3}>
             Description
